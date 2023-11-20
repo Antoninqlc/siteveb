@@ -1,10 +1,10 @@
 .main_title {
     color: #fff;
-    font-size: 3em;
+    font-size: 3vw;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    padding: 0.5em;
+    padding: 0.5vw;
     background: rgba(15, 148, 17, 0.624);
     background-size: cover;
     margin: 0;
@@ -26,59 +26,145 @@ section {
     justify-content: left;
 }
 
-.glo_container {
+.glo_container_song {
     display: grid;
-    grid-template-columns: repeat(4, 12em);
-    grid-row-gap: 0.5em;
-    grid-column-gap: 5em;
-    margin-top: -15em;
-    margin-left: 27em;
+    grid-template-columns: repeat(4, 12vw);
+    grid-row-gap: 0.5vw;
+    grid-column-gap: 6.2vw;
+    margin-top: -23vw;
+    margin-left: 25vw;
 }
 
 .ind_container {
     text-align: left;
-    font-size: 0.9em;
+    font-size: 0.9vw;
     color: #574e3c;
     background: #a09071;
-    height: 1.4em;
-    width: 16em;
-    border-radius: 0.2em;
-    border: 0.1em solid #574e3c;
-    padding: 0.1em;
+    height: 4vw;
+    width: 17vw;
+    border-radius: 0.2vw;
+    border: 0.2vw solid #574e3c;
+    padding: 0.1vw;
+}
+
+.glo_container_icone_ig {
+    display: grid;
+    grid-template-columns: repeat(4, 12vw);
+    grid-row-gap: 4.2vw;
+    grid-column-gap: 6.2vw;
+    margin-top: -36vw;
+    margin-left: 25vw;
+}
+
+.icone_song {
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    width: 1.5vw;
+}
+
+.icone_song_vinyl {
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    width: 1.5vw;
+}
+
+.icone_song_not_vinyl {
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    width: 1.5vw;
+    filter: grayscale(100%);
 }
 
 .album_text {
+    text-align: center;
     text-decoration: underline;
-    font-size: 1.2em;
-    padding: 0.4em;
+    font-size: 1vw;
+    padding: 0.4vw;
     color: #574e3c;
     background: #a09071;
-    height: 12%;
-    margin-right: 4em;
-    margin-left: 1em;
-    margin-top: 5em;
-    border-radius: 0.4em;
-    border-radius: 0.2em;
-    border: 0.1em solid #574e3c;
+    height: 11%;
+    margin-right: 4vw;
+    margin-left: 1vw;
+    margin-top: 11vw;
+    border-radius: 0.4vw;
+    border: 0.2vw solid #574e3c;
   }
 
 .cover_album {
-    border-radius: 0.3em;
+    border-radius: 0.3vw;
     border-color: #000000;
-    border: 0.2em solid #000000;
-    margin-left: 9em;
+    border: 0.2vw solid #000000;
+    margin-left: 6.5vw;
+    width: 10vw;
+}
+
+.glo_container_vinyl {
+    display: grid;
+    grid-template-columns: repeat(4, 12vw);
+    grid-row-gap: 4.46vw;
+    grid-column-gap: 6.2vw;
+    margin-top: -34.3vw;
+    margin-left: 27.4vw;
+}
+
+.help_ig {
+    margin-top: -0.2vw;
+    margin-left: 19vw;
+    width: 1.8vw;
+    height: 2vw;
+}
+
+.help_not_ig {
+    margin-top: -0.2vw;
+    margin-left: 6.8vw;
+    width: 1.8vw;
+    height: 2vw;
+}
+
+.help_vinyl {
+    margin-top: -0.2vw;
+    margin-left: 9.3vw;
+    width: 1.8vw;
+    height: 2vw;
+}
+
+.help_not_vinyl  {
+    filter: grayscale(100%);
+    margin-left: 7.3vw;
+    margin-top: -0.2vw;
+    width: 1.8vw;
+    height: 2vw;
+}
+
+.txt_footer {
+    font-weight: 100;
+    font-size: 1vw;
+    color: white;
+    text-align: start;
+    bottom: -0.7vw;
+    height: 2.2vw;
+    position: absolute;
+}
+
+.txt_help {
+    color: white;
+    font: 284848484vw;
+    bottom: 0.8vw;
+    position: absolute;
+}
+
+.oula {
+    color: #00000000;
 }
 
 footer {
     flex: 1 0 auto;
-    background-color: #777;
-    color: white;
-    text-align: start;
+    background-color: #77777795;
     position: absolute;
-    padding-top: 1em;
+    padding-top: 1vw;
     width: 100%;
     bottom: 0;
-    height: 2.2em;
+    height: 2.2vw;
 }
 
 @font-face {
