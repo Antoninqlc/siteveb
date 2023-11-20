@@ -1,10 +1,10 @@
 .main_title {
   color: #fff;
-  font-size: 3em;
+  font-size: 3vw;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  padding: 0.5em;
+  padding: 0.5vw;
   background: rgba(15, 148, 17, 0.624);
   background-size: cover;
   margin: 0;
@@ -30,23 +30,23 @@ section {
 
 .album_text {
   text-decoration: underline;
-  font-size: 1.4em;
-  padding: 0.4em;
+  font-size: 1.7vw;
+  padding: 0.4vw;
   color: #574e3c;
   background: #a09071;
   height: 12%;
-  margin-right: 4em;
-  margin-left: 4em;
-  margin-top: 5em;
-  border-radius: 0.4em;
-  border: 0.1em solid #574e3c;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  margin-top: 10vw;
+  border-radius: 0.4vw;
+  border: 0.1vw solid #574e3c;
 }
 
 .cover_album {
-  border-radius: 0.3em;
-  margin-right: 4em;
-  margin-left: 4em;
-  margin-top: 1.3em;
+  border-radius: 0.3vw;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  margin-top: 1.3vw;
 }
 
 footer {
@@ -55,10 +55,10 @@ footer {
     color: white;
     text-align: start;
     position: absolute;
-    padding-top: 1em;
+    padding-top: 1vw;
     width: 100%;
     bottom: 0;
-    height: 2.2em;
+    height: 2.2vw;
 }
 
 @font-face {
